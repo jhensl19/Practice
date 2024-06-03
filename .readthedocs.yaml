@@ -11,18 +11,6 @@ build:
   tools:
      python: "3.12"
 
-     $ conda activate rtd38
-(rtd38) $ conda env export --from-history | tee environment.yml
-name: rtd38
-channels:
-  - defaults
-  - conda-forge
-dependencies:
-  - rasterio==1.2
-  - python=3.8
-  - pytorch-cpu=1.7
-prefix: /home/docs/.conda/envs/rtd38
-
 python:
   install:
     - requirements: docs/environment.yaml
