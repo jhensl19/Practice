@@ -1,1 +1,3 @@
-string: mambaforge-latest
+#string: mambaforge-latest
+
+conda env export --from-history
