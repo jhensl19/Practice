@@ -13,9 +13,9 @@ build:
 
 python:
   install:
-    - requirements: docs/requirements.txt
+    - requirements: conda activate
 
-conda env create
+#conda env create
   
 sphinx:
   builder: html 
